@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fontes em CSS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+        
+        body {
+        font-family: Arial, Helvetica, sans-serif;
+         /* 
+         medidasa absolutas 
+         cm, mm, in, px, pt, pc
+
+         medidas Relativas
+         em, ex, rem, vw, vh, &,
+         16px geralmente = 1em
+         */
+        font-size: 1em ;
+        font-weight: ;
+        /* lighter normal bold bolder*/
+
+        }
+        h1 {
+            
+            /* shorthand font
+            - font-style -> font-weight -> font-size -> font-family
+
+            font-family: 'work sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic; 
+            */
+
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'Work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>trabalhando com fontes</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta nam sint fuga facere molestiae eveniet esse iure provident corporis, quos quis harum sapiente, facilis recusandae architecto hic voluptatem suscipit ratione! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, ipsum quibusdam ipsam animi iste pariatur accusantium asperiores omnis libero earum alias iusto distinctio? Maiores doloribus blanditiis iusto perferendis numquam enim. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas doloribus ducimus magni quod vel quae? Eveniet voluptatum quia nulla blanditiis, sit ad aspernatur laboriosam iusto perspiciatis asperiores quas consequatur maiores.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ipsa soluta cumque, reiciendis architecto mollitia dolor, placeat, commodi velit qui animi modi eos. Neque, sint sapiente non eveniet qui voluptatem?</p>
+    <h2>subtitulo do exercicio</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus et quis perspiciatis autem nisi corporis corrupti nostrum, natus alias sunt expedita vitae illo libero quo id accusamus, esse sit eaque!</p>
+</body>
+</html>
